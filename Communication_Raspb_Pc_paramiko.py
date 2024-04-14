@@ -1,16 +1,16 @@
 import paramiko
 
 # PC (destination) details
-pc_hostname = 'fedora'
-pc_username = 'khalil'
-pc_password = 'Nounou2012'
-pc_path = '/home/khalil'
+pc_hostname = 'your_pc_hostname_or_ip'
+pc_username = 'your_pc_username'
+pc_password = 'your_pc_password'
+pc_path = '/path/to/save/file/on/pc/'
 
 # Raspberry Pi (source) details
-pi_hostname = 'raspberry'
-pi_username = 'khalil'
-pi_password = 'khalil'
-pi_file_path = '/home/khalil/test'
+pi_hostname = 'your_pi_hostname_or_ip'
+pi_username = 'your_pi_username'
+pi_password = 'your_pi_password'
+pi_file_path = '/path/to/your/file/on/pi'
 
 # Establish SSH connection
 ssh = paramiko.SSHClient()
